@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+    xmlns="http://schemas.microsoft.com/appx/appinstaller/2021"
+    Version="1.0.4.0"
+    Uri="https://www.sonetics.com/dist/SoneticsProgrammer.appinstaller">
+
+    <MainPackage
+        Name="Sonetics.Programmer"
+        Publisher="CN=Sonetics"
+        Version="1.0.4.0"
+        ProcessorArchitecture="x64"
+        Uri="https://www.sonetics.com/dist/SoneticsProgrammer-1.0.4.msix" />
+
+    <UpdateSettings>
+        <OnLaunch HoursBetweenUpdateChecks="1"/>
+        <AutomaticBackgroundTask />
+    </UpdateSettings>
+
+    <UpdateUris>
+        <UpdateUri>https://www.sonetics.com/dist/SoneticsProgrammer.appinstaller</UpdateUri>
+    </UpdateUris>
+
+</AppInstaller>
